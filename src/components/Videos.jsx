@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 const Videos = () => {
   const videoList = [
     "https://www.youtube.com/embed/DhnM-jEJCUE?si=0lcev_YiIh3KDuj8",
+    "https://www.youtube.com/embed/Yxez6Gito7k?si=3MzVE_XLckEewyit",
   ];
 
   return (
