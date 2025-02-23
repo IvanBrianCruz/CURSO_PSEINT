@@ -28,7 +28,7 @@ function BasicExample({ setCurrentTab }) {
   `;
 
   const handleLogoClick = () => {
-    window.location.href = 'https://ivanbriancruz.github.io/CURSO-ATLAS/';
+    window.location.href = 'https://ivanbriancruz.github.io/CURSO_PSEINT/';
   };
 
   return (
