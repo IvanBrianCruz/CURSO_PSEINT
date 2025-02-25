@@ -5,6 +5,7 @@ const Videos = () => {
   const videoList = [
     "https://www.youtube.com/embed/DhnM-jEJCUE?si=0lcev_YiIh3KDuj8",
     "https://www.youtube.com/embed/Yxez6Gito7k?si=3MzVE_XLckEewyit",
+    "https://www.youtube.com/embed/cFjfCzWvvGI?si=P2uxn8R4ubArlpyY",
   ];
 
   return (
