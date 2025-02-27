@@ -17,7 +17,7 @@ function Footer() {
           <Col md={4}>
             <h5>Contáctanos</h5>
             <p>Email: ivan4912134@gmail.com</p>
-            <p>Tel: +54 9 388 4211576</p>
+            <p>Tel: +54 388 4211576</p>
           </Col>
         </Row>
         <hr className="border-light" />
