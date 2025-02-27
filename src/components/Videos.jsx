@@ -6,6 +6,7 @@ const Videos = () => {
     "https://www.youtube.com/embed/DhnM-jEJCUE?si=0lcev_YiIh3KDuj8",
     "https://www.youtube.com/embed/Yxez6Gito7k?si=3MzVE_XLckEewyit",
     "https://www.youtube.com/embed/cFjfCzWvvGI?si=P2uxn8R4ubArlpyY",
+    "https://www.youtube.com/embed/3s5UXGQnCJQ?si=YMxwKqlr7QiEip0l",
   ];
 
   return (
