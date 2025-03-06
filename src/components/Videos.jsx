@@ -8,6 +8,7 @@ const Videos = () => {
     "https://www.youtube.com/embed/cFjfCzWvvGI?si=P2uxn8R4ubArlpyY",
     "https://www.youtube.com/embed/3s5UXGQnCJQ?si=YMxwKqlr7QiEip0l",
     "https://www.youtube.com/embed/FfaLkg2jV1U?si=QNwUscktPrKIzo5L",
+    "https://www.youtube.com/embed/lm6lFaSiOx0?si=dxVSp9839osMnWAo",
   ];
 
   return (

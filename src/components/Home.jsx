@@ -117,6 +117,24 @@ const Home = () => {
             </button>
           </li>
         </ul>
+        <ul style={{ listStyle: 'none', padding: 0 }}>
+          <li style={{ margin: '1rem 0' }}>
+            <button
+              onClick={() => window.open('https://drive.google.com/drive/folders/15pmcbgvW-8ORhqSdFSUuBhiAECEFkH0p?usp=sharing', '_blank')}
+              style={{
+                padding: '0.5rem 2rem',
+                borderRadius: '5px',
+                cursor: 'pointer',
+                backgroundColor: '#007ACC',
+                color: '#fff',
+                border: 'none',
+                fontSize: '16px',
+              }}
+            >
+               📂 Abrir Google Drive
+            </button>
+          </li>
+        </ul>
       </section>
 
 
