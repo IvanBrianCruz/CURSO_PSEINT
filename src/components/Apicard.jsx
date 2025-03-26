@@ -6,10 +6,21 @@ const Apicard = () => {
 
   useEffect(() => {
     fetch('https://api-atlas-13zf0bcjb-ivans-projects-ece2b759.vercel.app/api/productos/')
-      .then(response => response.json())
-      .then(data => setProductos(data))
-      .catch(error => console.error('Error al obtener productos:', error));
+      .then(response => {
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(data => {
+        console.log('Datos recibidos:', data);
+        setProductos(data);
+      })
+      .catch(error => {
+        console.error('Error al obtener productos:', error);
+      });
   }, []);
+  
 
   return (
     <div
