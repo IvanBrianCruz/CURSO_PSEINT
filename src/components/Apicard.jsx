@@ -5,7 +5,7 @@ const Apicard = () => {
   const [productos, setProductos] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:3000/api/productos/')
+    fetch('https://api-atlas.vercel.app/api/productos')
       .then(response => {
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
