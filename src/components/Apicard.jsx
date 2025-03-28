@@ -14,7 +14,8 @@ const Apicard = () => {
       })
       .then(data => {
         console.log('Datos recibidos:', data);
-        setProductos(data);
+        // Asegúrate de acceder a la propiedad 'productos' aquí
+        setProductos(data.productos); // Aquí es donde se extrae el array de productos
       })
       .catch(error => {
         console.error('Error al obtener productos:', error);
